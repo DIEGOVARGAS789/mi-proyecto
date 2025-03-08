@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alquiler de Carros Cúcuta</title>
+    <link rel="stylesheet" href="estylos.css">
+</head>
+<body id="top">
+    <header>
+        <div id = "mi-encabezado">        
+            <div class="container header-top">
+            <h2>ALKILA TU CAR CÚCUTA</h2>
+            <hr>
+            <h3>Alquiler de Carros Blindados</h3>
+            <a href="javascript:void(0);" id="cart-button">
+                <img src="imagenes/carrito.png" alt="Carrito">
+                <span id="cart-count">0</span>
+            </a>
+            </div>
+        </div>
+        <nav class="brands-nav">
+            <div class="mi-encabezado">
+                <ul>
+                    <li><a href="#toyota" aria-label="Toyota">TOYOTA</a></li>
+                    <li><a href="#honda" aria-label="Honda">HONDA</a></li>
+                    <li><a href="#ford" aria-label="Ford">FORD</a></li>
+                    <li><a href="#chevrolet" aria-label="Chevrolet">CHEVROLET</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="search-bar">
+            <div class="mi-encabezado">
+                <form>
+                    <input type="text" id="pickupLocation" placeholder="Local de retirada (ej: Bogotá, Medellín)">
+                    <input type="date" id="pickupDate">
+                    <input type="time" id="pickupTime">
+                    <button type="button">Ahorra con el alquiler mensual</button>
+                </form>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <section id="toyota" class="car-list">
+                <h2>Toyota</h2>
+                <article class="car">
+                    <img src="imagenes/ToyotaCorolla.jpeg" alt="Toyota Corolla">
+                    <h3>Toyota Corolla</h3>
+                    <p>Año: 2022</p>
+                    <p class="price" data-price="1400000">Valor dia: $1.400.000</p>
+                    <div class="counter">
+                        <button class="minus">-</button>
+                        <span class="count">0</span>
+                        <button class="plus">+</button>
+                    </div>
+                    <p class="total">Total: $0</p>
+                    <a href="javascript:void(0);" class="btn rent-button">Alkila</a>
+                </article>
+                <article class="car">
+                    <img src="imagenes/ToyotaRAV4.jpeg" alt="Toyota RAV4">
+                    <h3>Toyota RAV4</h3>
+                    <p>Año: 2023</p>
+                    <p class="price" data-price="1450000">Valor dia: $1.450.000</p>
+                    <div class="counter">
+                        <button class="minus">-</button>
+                        <span class="count">0</span>
+                        <button class="plus">+</button>
+                    </div>
+                    <p class="total">Total: $0</p>
+                    <a href="javascript:void(0);" class="btn rent-button">Alkila</a>
+                </article>
+            </section>
+            <section id="honda" class="car-list">
+                <h2>Honda</h2>
+                <article class="car">
+                    <img src="imagenes/HondaCivic.png" alt="Honda Civic">
+                    <h3>Honda Civic</h3>
+                    <p>Año: 2022</p>
+                    <p class="price" data-price="1380000">Valor dia: $1.380.000</p>
+                    <div class="counter">
+                        <button class="minus">-</button>
+                        <span class="count">0</span>
+                        <button class="plus">+</button>
+                    </div>
+                    <p class="total">Total: $0</p>
+                    <a href="javascript:void(0);" class="btn rent-button">Alkila</a>
+                </article>
+                <article class="car">
+                    <img src="imagenes/HondaCR-V.jpeg" alt="Honda CR-V">
+                    <h3>Honda CR-V</h3>
+                    <p>Año: 2023</p>
+                    <p class="price" data-price="1400000">Valor dia: $1.400.000</p>
+                    <div class="counter">
+                        <button class="minus">-</button>
+                        <span class="count">0</span>
+                        <button class="plus">+</button>
+                    </div>
+                    <p class="total">Total: $0</p>
+                    <a href="javascript:void(0);" class="btn rent-button">Alkila</a>
+                </article>
+            </section>
+            <section id="ford" class="car-list">
+                <h2>Ford</h2>
+                <article class="car">
+                    <img src="imagenes/FordMustang.jpeg" alt="Ford Mustang">
+                    <h3>Ford Mustang</h3>
+                    <p>Año: 2023</p>
+                    <p class="price" data-price="1480000">Valor dia: $1.480.000</p>
+                    <div class="counter">
+                        <button class="minus">-</button>
+                        <span class="count">0</span>
+                        <button class="plus">+</button>
+                    </div>
+                    <p class="total">Total: $0</p>
+                    <a href="javascript:void(0);" class="btn rent-button">Alkila</a>
+                </article>
+                <article class="car">
+                    <img src="imagenes/FordF-150.jpeg" alt="Ford F-150">
+                    <h3>Ford F-150</h3>
+                    <p>Año: 2022</p>
+                    <p class="price" data-price="1420000">Valor dia: $1.420.000</p>
+                    <div class="counter">
+                        <button class="minus">-</button>
+                        <span class="count">0</span>
+                        <button class="plus">+</button>
+                    </div>
+                    <p class="total">Total: $0</p>
+                    <a href="javascript:void(0);" class="btn rent-button">Alkila</a>
+                </article>
+            </section>
+            <section id="chevrolet" class="car-list">
+                <h2>Chevrolet</h2>
+                <article class="car">
+                    <img src="imagenes/ChevroletCamaro.jpeg" alt="Chevrolet Camaro">
+                    <h3>Chevrolet Camaro</h3>
+                    <p>Año: 2023</p>
+                    <p class="price" data-price="1320000">Valor dia: $1.320.000</p>
+                    <div class="counter">
+                        <button class="minus">-</button>
+                        <span class="count">0</span>
+                        <button class="plus">+</button>
+                    </div>
+                    <p class="total">Total: $0</p>
+                    <a href="javascript:void(0);" class="btn rent-button">Alkila</a>
+                </article>
+                <article class="car">
+                    <img src="imagenes/ChevroletSilverado.jpg" alt="Chevrolet Silverado">
+                    <h3>Chevrolet Silverado</h3>
+                    <p>Año: 2022</p>
+                    <p class="price" data-price="1350000">Valor dia: $1.350.000</p>
+                    <div class="counter">
+                        <button class="minus">-</button>
+                        <span class="count">0</span>
+                        <button class="plus">+</button>
+                    </div>
+                    <p class="total">Total: $0</p>
+                    <a href="javascript:void(0);" class="btn rent-button">Alkila</a>
+                </article>
+            </section>
+            <section class="contact-form">
+                <div class="container">
+                    <h2>Contáctanos</h2>
+                    <form id="contactForm">
+                        <label for="name">Nombre:</label>
+                        <input type="text" id="name" name="name" required>
+                        <label for="phone">Teléfono:</label>
+                        <input type="tel" id="phone" name="phone" required>
+                        <label for="email">Correo Electrónico:</label>
+                        <input type="email" id="email" name="email" required>
+                        <label for="message">Mensaje:</label>
+                        <textarea id="message" name="message" required></textarea>
+                        <button type="submit">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </section>
+        </div>
+    </main>
+    <script src="app.js"></script>
+    <a href="#top" id="back-to-top" title="Volver arriba">
+        <img src="imagenes/flechaarriba.png" alt="Volver arriba">
+    </a>
+    <footer>
+        <a href="cartcompras.html">Ir a Carrito</a>
+        </footer>
+    </body>
+    </html>
